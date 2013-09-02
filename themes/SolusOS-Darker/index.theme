@@ -1,0 +1,12 @@
+[Desktop Entry]
+Type=X-GNOME-Metatheme
+Name=SolusOS-Darker
+Comment=SolusOS GTK theme based on Boomerang Deux 
+Encoding=UTF-8
+
+[X-GNOME-Metatheme]
+GtkTheme=SolusOS-Darker
+MetacityTheme=SolusOS-Darker
+IconTheme=elementary
+CursorTheme=DMZ-White
+ButtonLayout=menu:minimize,maximize,close
