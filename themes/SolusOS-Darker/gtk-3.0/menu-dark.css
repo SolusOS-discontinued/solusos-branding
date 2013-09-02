@@ -109,7 +109,9 @@ DbusmenuGtkMenu .menu,
     border-width: 1px;
     padding: 3px 2px 3px 2px;
 
-    -unico-inner-stroke-width: 1px;
+    border-color: transparent;
+    background-image: none;
+    background-color: transparent;
 }
 
 Genericmenuitem .menuitem,
