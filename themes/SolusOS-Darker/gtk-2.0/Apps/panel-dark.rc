@@ -1,0 +1,38 @@
+## Panels ##############################################
+
+style "theme-panel" = "dark" {
+  xthickness        = 1
+  ythickness        = 1
+  bg[SELECTED] = shade(1.05, @bg_color_dark)
+  bg_pixmap[NORMAL] = "Images/panel_bg.png"
+  engine "equinox" {
+    menubaritemstyle = 2
+    curvature = 0
+  }
+}
+
+style "theme-panel-button" = "dark" {
+  xthickness        = 3
+  ythickness        = 2
+}
+
+widget "*PanelWidget*"                    style "theme-panel"
+widget "*Panel*Frame*"                    style "theme-panel"
+widget_class "*PanelApplet*<GtkButton>*"  style "theme-panel-button"
+widget "*fast-user-switch*"				        style "theme-panel" # Workaround for Fast User Switch applet
+widget_class "*Panel*<GtkMenuBar>*"       style:highest "theme-panel" # The panel menubar
+class "PanelApp*" 						style "theme-panel"
+class "PanelToplevel*" 				style "theme-panel"
+widget "*TomboyTray*"					style "theme-panel" # Workaround for Tomboy
+widget "*TomboyApplet*"				style "theme-panel"
+widget "*Net*Applet*"					style "theme-panel"
+widget "*CPU*Applet*"					style "theme-panel"
+widget "*dictApplet*"					style "theme-panel"
+
+# XFCE panel
+widget_class "*notif*"				style "theme-panel"
+widget_class "*Notif*"				style "theme-panel"
+widget_class "*Tray*"					style "theme-panel"
+widget_class "*tray*"					style "theme-panel"
+widget "*Xfce*Panel*"					style "theme-panel"
+class "*Xfce*Panel*"					style "theme-panel"
