@@ -5,10 +5,6 @@ style "theme-panel" = "dark" {
   ythickness        = 1
   bg[SELECTED] = shade(1.05, @bg_color_dark)
   bg_pixmap[NORMAL] = "Images/panel_bg.png"
-  engine "equinox" {
-    menubaritemstyle = 2
-    curvature = 0
-  }
 }
 
 style "theme-panel-button" = "dark" {
