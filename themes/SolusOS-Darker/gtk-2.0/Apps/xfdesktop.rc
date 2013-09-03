@@ -1,0 +1,8 @@
+## Panels ##############################################
+
+style "xfdesktop" = "dark" {
+    XfdesktopIconView::label-alpha = 0
+    XfdesktopIconView::selected-label-alpha = 100
+}
+
+widget_class "*XfdesktopIconView*" style "xfdesktop"
