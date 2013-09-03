@@ -107,7 +107,7 @@ DbusmenuGtkMenu .menu,
     border-radius: 0;
     border-style: solid;
     border-width: 1px;
-    padding: 3px 2px 3px 2px;
+    padding: 3px 10px 3px 7px;
 
     border-color: transparent;
     background-image: none;
