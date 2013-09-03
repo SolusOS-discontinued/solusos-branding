@@ -31,10 +31,24 @@
 @define-color cluebar_color #1E90FF;
 
 /* theme common colors */
+/*
 @define-color button_bg_color shade (mix (#E7E7E7, #cdcdcd, 0.6), 1.06);
 @define-color button_insensitive_bg_color mix (@button_bg_color, @bg_color, 0.6);
 @define-color dark_bg_color #D1D1D1;
 @define-color dark_menu_color #4A4A4A;
+@define-color notebook_bg_color #e2e2e2;
+@define-color dark_fg_color @fg_color;
+@define-color dark_menu_fg #FFFFFF;
+@define-color transparent rgba (0, 0, 0, 0);
+@define-color backdrop_selected_bg_color shade (@bg_color, 0.92);
+@define-color backdrop_selected_bt_color shade (@bg_color, 0.82);
+@define-color backdrop_selected_fg_color @fg_color;*/
+
+
+@define-color button_bg_color shade (mix (#E7E7E7, #cdcdcd, 0.6), 1.06);
+@define-color button_insensitive_bg_color mix (@button_bg_color, @bg_color, 0.6);
+@define-color dark_bg_color #D1D1D1;
+@define-color dark_menu_color #363636;
 @define-color notebook_bg_color #e2e2e2;
 @define-color dark_fg_color @fg_color;
 @define-color dark_menu_fg #FFFFFF;

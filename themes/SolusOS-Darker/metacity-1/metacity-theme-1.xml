@@ -80,39 +80,39 @@
   <image filename="pixmap_top.png" x="70" y="0" width="width - 20" height="height"/>
   <image filename="pixmap_top_right.png" x="width - object_width" y="0" width="object_width" height="height"/>
   <!-- left arch -->
-  <line color="#4d4d4d" x1="0" x2="4" y1="1" y2="1"/>
-  <line color="#4d4d4d" x1="0" x2="2" y1="2" y2="2"/>
-  <line color="#4d4d4d" x1="0" x2="1" y1="3" y2="3"/>
-  <line color="#4d4d4d" x1="0" x2="1" y1="4" y2="4"/>
+  <line color="#363636" x1="0" x2="4" y1="1" y2="1"/>
+  <line color="#363636" x1="0" x2="2" y1="2" y2="2"/>
+  <line color="#363636" x1="0" x2="1" y1="3" y2="3"/>
+  <line color="#363636" x1="0" x2="1" y1="4" y2="4"/>
   <!-- right arch -->
-  <line color="#4d4d4d" x1="width-5" x2="width" y1="1" y2="1"/>
-  <line color="#4d4d4d" x1="width-3" x2="width" y1="2" y2="2"/>
-  <line color="#4d4d4d" x1="width-2" x2="width" y1="3" y2="3"/>
-  <line color="#4d4d4d" x1="width-2" x2="width" y1="4" y2="4"/>
+  <line color="#363636" x1="width-5" x2="width" y1="1" y2="1"/>
+  <line color="#363636" x1="width-3" x2="width" y1="2" y2="2"/>
+  <line color="#363636" x1="width-2" x2="width" y1="3" y2="3"/>
+  <line color="#363636" x1="width-2" x2="width" y1="4" y2="4"/>
 </draw_ops>
 
 <draw_ops name="draw_title_ut">
   <!-- frame and gradient -->
-  <rectangle color="#4d4d4d" filled="false" x="0" y="0" width="width-1" height="top_height"/>
+  <rectangle color="#363636" filled="false" x="0" y="0" width="width-1" height="top_height"/>
   <gradient type="vertical" x="1" y="1" width="width-2" height="top_height-1">
   <color value="shade/gtk:bg[NORMAL]/1.07"/>
   <color value="shade/gtk:bg[NORMAL]/1.0"/>
   </gradient>
   <!-- left arch -->
-  <line color="#4d4d4d" x1="0" x2="4" y1="1" y2="1"/>
-  <line color="#4d4d4d" x1="0" x2="2" y1="2" y2="2"/>
-  <line color="#4d4d4d" x1="0" x2="1" y1="3" y2="3"/>
-  <line color="#4d4d4d" x1="0" x2="1" y1="4" y2="4"/>
+  <line color="#363636" x1="0" x2="4" y1="1" y2="1"/>
+  <line color="#363636" x1="0" x2="2" y1="2" y2="2"/>
+  <line color="#363636" x1="0" x2="1" y1="3" y2="3"/>
+  <line color="#363636" x1="0" x2="1" y1="4" y2="4"/>
   <!-- right arch -->
-  <line color="#4d4d4d" x1="width-5" x2="width" y1="1" y2="1"/>
-  <line color="#4d4d4d" x1="width-3" x2="width" y1="2" y2="2"/>
-  <line color="#4d4d4d" x1="width-2" x2="width" y1="3" y2="3"/>
-  <line color="#4d4d4d" x1="width-2" x2="width" y1="4" y2="4"/>
+  <line color="#363636" x1="width-5" x2="width" y1="1" y2="1"/>
+  <line color="#363636" x1="width-3" x2="width" y1="2" y2="2"/>
+  <line color="#363636" x1="width-2" x2="width" y1="3" y2="3"/>
+  <line color="#363636" x1="width-2" x2="width" y1="4" y2="4"/>
 </draw_ops>
 
 <draw_ops name="draw_title_utility">
   <include name="draw_title" />
-  <line color="#4d4d4d" x1="1" x2="width-2" y1="height-1" y2="height-1"/>
+  <line color="#363636" x1="1" x2="width-2" y1="height-1" y2="height-1"/>
 </draw_ops>
 
 <draw_ops name="draw_title_unfocused">
@@ -121,20 +121,20 @@
   <image filename="pixmap_top.png" x="70" y="0" width="width - 20" height="height"/>
   <image filename="pixmap_top_right.png" x="width - object_width" y="0" width="object_width" height="height"/>
   <!-- left arch -->
-  <line color="#4d4d4d" x1="0" x2="4" y1="1" y2="1"/>
-  <line color="#4d4d4d" x1="0" x2="2" y1="2" y2="2"/>
-  <line color="#4d4d4d" x1="0" x2="1" y1="3" y2="3"/>
-  <line color="#4d4d4d" x1="0" x2="1" y1="4" y2="4"/>
+  <line color="#363636" x1="0" x2="4" y1="1" y2="1"/>
+  <line color="#363636" x1="0" x2="2" y1="2" y2="2"/>
+  <line color="#363636" x1="0" x2="1" y1="3" y2="3"/>
+  <line color="#363636" x1="0" x2="1" y1="4" y2="4"/>
   <!-- right arch -->
-  <line color="#4d4d4d" x1="width-5" x2="width" y1="1" y2="1"/>
-  <line color="#4d4d4d" x1="width-3" x2="width" y1="2" y2="2"/>
-  <line color="#4d4d4d" x1="width-2" x2="width" y1="3" y2="3"/>
-  <line color="#4d4d4d" x1="width-2" x2="width" y1="4" y2="4"/>
+  <line color="#363636" x1="width-5" x2="width" y1="1" y2="1"/>
+  <line color="#363636" x1="width-3" x2="width" y1="2" y2="2"/>
+  <line color="#363636" x1="width-2" x2="width" y1="3" y2="3"/>
+  <line color="#363636" x1="width-2" x2="width" y1="4" y2="4"/>
 </draw_ops>
 
 <draw_ops name="draw_title_utility_unfocused">
   <include name="draw_title_unfocused" />
-  <line color="#4d4d4d" x1="1" x2="width-2" y1="height-1" y2="height-1"/>
+  <line color="#363636" x1="1" x2="width-2" y1="height-1" y2="height-1"/>
 </draw_ops>
 
 <draw_ops name="draw_title_maximized">
@@ -156,8 +156,8 @@
 <draw_ops name="draw_frame">
   <rectangle color="#b6b6b6" filled="true" x="0" y="0" width="width" height="height"/>
   <gradient type="vertical" x="0" y="0" width="width" height="80">
-    <color value="#4d4d4d" />
-    <color value="#4d4d4d" />
+    <color value="#363636" />
+    <color value="#363636" />
     <color value="#b6b6b6" />
   </gradient>
 </draw_ops>

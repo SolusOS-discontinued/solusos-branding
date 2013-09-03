@@ -8,7 +8,7 @@ gtk_color_scheme	= "bg_color:#EDEDED\nselected_bg_color:#1E90FF\nbase_color:#FFF
 gtk_color_scheme	= "fg_color:#4C4C4C\nselected_fg_color:#FFFFFF\ntext_color:#3C3C3C"
 gtk_color_scheme	= "tooltip_bg_color:#000000\ntooltip_fg_color:#FFFFFF" 			
 gtk_color_scheme	= "link_color:#2677CB"							
-gtk_color_scheme	= "dark_bg_color:#4A4A4A\nbutton_bg_color:#E3E3E3\ndark_fg_color:#FFFFFF"			
+gtk_color_scheme	= "dark_bg_color:#363636\nbutton_bg_color:#E3E3E3\ndark_fg_color:#FFFFFF"			
 
 gtk-icon-sizes = "panel-menu=22,22:gtk-button=16,16"
 
@@ -119,7 +119,7 @@ style "default" {
 
 style "dark"
 {
-	color["bg_color_dark"] 	= "#4A4A4A"
+	color["bg_color_dark"] 	= "#363636"
   	color["fg_color_dark"] 	= "#FFFFFF"
   	color["selected_fg_color_dark"] = "#ffffff"
 
@@ -447,31 +447,31 @@ widget_class "*<GtkNotebook>*<GtkLabel>" style "notebook_bg"
 
 # PRIMARY TOOLBARS (light style):
 
-widget_class "*<GtkHandleBox>"                style "toolbar"
-widget_class "*<GtkHandleBox>.*"              style "gradient_toolbar"
-widget_class "*<GtkHandleBox>.*<GtkScale>"    style "scale"
-widget_class "*<GtkHandleBox>.*<GtkEntry>"    style "entry"
-widget_class "*<GtkHandleBox>.*Combo*"        style "comboboxentry"
+#widget_class "*<GtkHandleBox>"                style "toolbar"
+#widget_class "*<GtkHandleBox>.*"              style "gradient_toolbar"
+#widget_class "*<GtkHandleBox>.*<GtkScale>"    style "scale"
+#widget_class "*<GtkHandleBox>.*<GtkEntry>"    style "entry"
+#widget_class "*<GtkHandleBox>.*Combo*"        style "comboboxentry"
 
-widget_class "*<GtkToolbar>"                  style "toolbar"
-widget_class "*<GtkToolbar>.*"                style "toolbar"
-widget_class "*<GtkToolbar>.*<GtkScale>"      style "scale"
-widget_class "*<GtkToolbar>.*<GtkEntry>"      style "entry"
-widget_class "*<GtkToolbar>.*Combo*"          style "comboboxentry"
+#widget_class "*<GtkToolbar>"                  style "toolbar"
+#widget_class "*<GtkToolbar>.*"                style "toolbar"
+#widget_class "*<GtkToolbar>.*<GtkScale>"      style "scale"
+#widget_class "*<GtkToolbar>.*<GtkEntry>"      style "entry"
+#widget_class "*<GtkToolbar>.*Combo*"          style "comboboxentry"
 
 # PRIMARY TOOLBARS (dark style):
 
-#widget_class "*<GtkHandleBox>"                style "primary_toolbar_bg"
-#widget_class "*<GtkHandleBox>.*"              style "primary_toolbar"
-#widget_class "*<GtkHandleBox>.*<GtkScale>"    style "scale"
-#widget_class "*<GtkHandleBox>.*<GtkEntry>"    style "entry"
-#widget_class "*<GtkHandleBox>.*Combo*"        style "primary_toolbar_combo"
+widget_class "*<GtkHandleBox>"                style "primary_toolbar_bg"
+widget_class "*<GtkHandleBox>.*"              style "primary_toolbar"
+widget_class "*<GtkHandleBox>.*<GtkScale>"    style "scale"
+widget_class "*<GtkHandleBox>.*<GtkEntry>"    style "entry"
+widget_class "*<GtkHandleBox>.*Combo*"        style "primary_toolbar_combo"
 
-#widget_class "*<GtkToolbar>"                  style "primary_toolbar_bg"
-#widget_class "*<GtkToolbar>.*"                style "primary_toolbar"
-#widget_class "*<GtkToolbar>.*<GtkScale>"      style "scale"
-#widget_class "*<GtkToolbar>.*<GtkEntry>"      style "entry"
-#widget_class "*<GtkToolbar>.*Combo*"          style "primary_toolbar_combo"
+widget_class "*<GtkToolbar>"                  style "primary_toolbar_bg"
+widget_class "*<GtkToolbar>.*"                style "primary_toolbar"
+widget_class "*<GtkToolbar>.*<GtkScale>"      style "scale"
+widget_class "*<GtkToolbar>.*<GtkEntry>"      style "entry"
+widget_class "*<GtkToolbar>.*Combo*"          style "primary_toolbar_combo"
 
 # SECONDARY TOOLBARS (light style):
 
