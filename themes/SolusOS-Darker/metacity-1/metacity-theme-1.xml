@@ -154,28 +154,28 @@
 <!-- window Frames -->
 
 <draw_ops name="draw_frame">
-  <rectangle color="#b6b6b6" filled="true" x="0" y="0" width="width" height="height"/>
+  <rectangle color="#363636" filled="true" x="0" y="0" width="width" height="height"/>
   <gradient type="vertical" x="0" y="0" width="width" height="80">
     <color value="#363636" />
     <color value="#363636" />
-    <color value="#b6b6b6" />
+    <color value="#363636" />
   </gradient>
 </draw_ops>
 
 <draw_ops name="draw_frame_utility">
-  <rectangle color="#b6b6b6" x="0" y="0" width="width" height="height" filled="true"/>
+  <rectangle color="#363636" x="0" y="0" width="width" height="height" filled="true"/>
 </draw_ops>
 
 <draw_ops name="bottom_edge">
-  <line color="#b6b6b6" x1="0" x2="width" y1="height-1" y2="height-1"/>
+  <line color="#363636" x1="0" x2="width" y1="height-1" y2="height-1"/>
 </draw_ops>
 
 <draw_ops name="border">
-  <line color="#b6b6b6" x1="1" y1="height - 2" x2="width - 2" y2="height - 2"/>
-  <line color="#b6b6b6" x1="width - 2" y1="1" x2="width - 2" y2="height - 2"/>
-  <line color="#b6b6b6" x1="1" y1="1" x2="width - 2" y2="1"/>
-  <line color="#b6b6b6" x1="1" y1="1" x2="1" y2="height - 2"/>
-  <rectangle color="#b6b6b6" filled="false" x="0" y="0" width="width - 1" height="height - 1"/>
+  <line color="#363636" x1="1" y1="height - 2" x2="width - 2" y2="height - 2"/>
+  <line color="#363636" x1="width - 2" y1="1" x2="width - 2" y2="height - 2"/>
+  <line color="#363636" x1="1" y1="1" x2="width - 2" y2="1"/>
+  <line color="#363636" x1="1" y1="1" x2="1" y2="height - 2"/>
+  <rectangle color="#363636" filled="false" x="0" y="0" width="width - 1" height="height - 1"/>
 </draw_ops>
 
 <!-- buttons -->
