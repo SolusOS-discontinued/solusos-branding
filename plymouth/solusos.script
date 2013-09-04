@@ -36,7 +36,8 @@ frame_count = index + 1;
 frame_index = 0;
 throbber_sprite = SpriteNew();
 
-Offset = 50;
+VOffset = 150;
+HOffset = 15;
 
 fun refresh (){
     if (status == "normal"){
@@ -44,8 +45,8 @@ fun refresh (){
         frame_index %= frame_count;
         int_frame_index = MathInt(frame_index);
         SpriteSetImage (throbber_sprite, frame_image[int_frame_index]);
-        SpriteSetX (throbber_sprite, SpriteWindowGetWidth()  / 2 - ImageGetWidth(frame_image[int_frame_index])  / 2);
-        SpriteSetY (throbber_sprite, (SpriteWindowGetHeight() / 2) + Offset);
+        SpriteSetX (throbber_sprite, (SpriteWindowGetWidth()  / 2 - ImageGetWidth(frame_image[int_frame_index])  / 2) - HOffset);
+        SpriteSetY (throbber_sprite, (SpriteWindowGetHeight() / 2) + VOffset);
         SpriteSetOpacity (throbber_sprite, 1);
         }
     else{
@@ -75,7 +76,7 @@ fun dialogue_setup(){
     box.sprite = SpriteNew();
     SpriteSetImage(box.sprite, box.image);
     box.x = SpriteWindowGetWidth()  / 2 - ImageGetWidth (box.image)/2;
-    box.y = SpriteWindowGetHeight() / 2 - ImageGetHeight(box.image)/2;
+    box.y = (SpriteWindowGetHeight() / 2 - ImageGetHeight(box.image)/2) + VOffset;
     box.z = 10000;
     SpriteSetPosition(box.sprite, box.x, box.y, box.z);
     
