@@ -1,0 +1,8 @@
+[Plymouth Theme]
+Name=SolusOS Boot Theme
+Description=SolusOS Boot Theme
+ModuleName=script
+
+[script]
+ImageDir=/usr/share/plymouth/themes/solusos/
+ScriptFile=/usr/share/plymouth/themes/solusos/solusos.script
